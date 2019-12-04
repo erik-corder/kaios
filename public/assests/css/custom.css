@@ -1,0 +1,18 @@
+.main-navbar{
+    background-color: aqua !important;
+    height: 60px;
+    margin-bottom: 0px !important;
+  }
+
+.customer-details{
+    text-align: left;
+}
+
+.fa-bars{
+  font-size: 300% !important;
+  margin-bottom: 50%;
+}
+
+.cantact-list{
+  font-size: 25px;
+}
