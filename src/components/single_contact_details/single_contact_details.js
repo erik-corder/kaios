@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import Nav from '../../components/Navbar/Navbar';
+import Footer from '../../components/footer/footer';
+
 
 class SingleContactList extends React.Component {
 
@@ -14,7 +17,9 @@ class SingleContactList extends React.Component {
 
   render() {
     return (
+     
       <div>
+        <Nav />
         <div class="uk-card uk-card-default uk-width-1-2@m">
           <div class="uk-card-header">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -114,7 +119,8 @@ class SingleContactList extends React.Component {
             </tbody>
           </table>
         </div>
-      </div>
+        <Footer />
+      </div>     
     );
   }
 }
