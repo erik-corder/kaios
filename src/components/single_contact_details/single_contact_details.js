@@ -110,14 +110,7 @@ class SingleContactList extends React.Component {
                   </div>
                 </td>
                 <td className="datils Icons"><i class="fa fa-phone icons" aria-hidden="true"></i></td>
-              </tr>
-              <tr>
-                <td className="details">
-                  <button class="uk-button uk-button-default" type="button" uk-toggle="target: #toggle-animation-multiple; animation:  uk-animation-slide-left, uk-animation-slide-bottom">Toggle</button>
-                  <div id="toggle-animation-multiple" class="uk-card uk-card-default uk-card-body uk-margin-small">Animation</div>
-                </td>
-                <td className="datils Icons"><i class="fa fa-phone icons" aria-hidden="true"></i></td>
-              </tr>
+              </tr> 
             </tbody>
           </table>
         </div>

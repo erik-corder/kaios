@@ -8,14 +8,16 @@ import './app.css';
 import Nav from '../components/Navbar/Navbar';
 import ContactList from "../components/contact_list/contact_list";
 import SingleContactList from "../components/single_contact_details/single_contact_details";
+import Footer from '../components/footer/footer';
+
 import Routes from "../Routes/Routes";
 
 const hist = createBrowserHistory({basename: '/'});
 
 class App extends React.Component {
 
-  constructor(prop){
-    super(prop);
+  constructor(props){
+    super(props);
   }
 
   componentDidMount() {
@@ -32,7 +34,7 @@ class App extends React.Component {
             <Route path={prop.path} component={prop.component} key={key} />
           );
         })}
-        <Redirect to="/home" />
+        <Redirect to="/login" />
       </Switch>
     );
 
@@ -40,6 +42,7 @@ class App extends React.Component {
       <Router history={hist}>
         <Nav />
         {routes}
+        <Footer />
       </Router>
     );
    

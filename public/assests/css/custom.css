@@ -11,6 +11,7 @@
 .fa-bars{
   font-size: 300% !important;
   margin-bottom: 50%;
+  margin-left: 10px;
 }
 
 .cantact-list{
@@ -48,4 +49,38 @@
 .recent-details{
     padding-left: 0;
     float: left;
+}
+
+.footer{
+  background-color: #76aeaf;
+  padding: 0;
+}
+
+.back-button{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.uk-offcanvas-close{
+  color: white;
+}
+
+.side-bar{
+  width: 100%;
+}
+
+.nav-list{
+  font-size: 20px;
+}
+
+.login-form{
+  margin: 50% 0;
+}
+
+.login-field{
+  width: 70%;
+}
+
+.log-icon{
+  font-size: 20px;
 }

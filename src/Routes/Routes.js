@@ -5,10 +5,11 @@ import React, { Component } from 'react';
 import App from "../view/app.js";
 import ContactList from "../components/contact_list/contact_list";
 import SingleContact from "../components/single_contact_details/single_contact_details";
+import Login from "../components/login/login";
 
 const Routes  = [
     {
-        path: '/home',
+        path: '/contact-list',
         name: "Contact list",
         icon: "fas fa-user",
         component: ContactList
@@ -18,6 +19,12 @@ const Routes  = [
         name: "single contact list",
         icon: "fas fa-user",
         component: SingleContact
+    },
+    {
+        path: '/login',
+        name: "login",
+        icon: "fas fa-user",
+        component: Login
     }
 ]
 export default Routes;
