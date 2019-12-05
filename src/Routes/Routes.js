@@ -6,6 +6,7 @@ import App from "../view/app.js";
 import ContactList from "../components/contact_list/contact_list";
 import SingleContact from "../components/single_contact_details/single_contact_details";
 import Login from "../components/login/login";
+import Calling from "../components/calling/calling";
 
 const Routes  = [
     {
@@ -25,6 +26,12 @@ const Routes  = [
         name: "login",
         icon: "fas fa-user",
         component: Login
+    },
+    {
+        path: '/calling',
+        name: "calling",
+        icon: "fas fa-user",
+        component: Calling 
     }
 ]
 export default Routes;

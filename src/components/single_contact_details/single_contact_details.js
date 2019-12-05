@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import Nav from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/footer';
@@ -17,7 +18,7 @@ class SingleContactList extends React.Component {
 
   render() {
     return (
-     
+
       <div>
         <Nav />
         <div class="uk-card uk-card-default uk-width-1-2@m">
@@ -33,13 +34,13 @@ class SingleContactList extends React.Component {
             </div>
           </div>
           <div class="icon-set" uk-gird>
-
-            <div class="uk-card uk-card-default uk-card-body card">
-              <i class="fa fa-phone icons" aria-hidden="true"></i>
-              <br />
-              Call
+            <Link to="/calling">
+              <div class="uk-card uk-card-default uk-card-body card">
+                <i class="fa fa-phone icons" aria-hidden="true"></i>
+                <br />
+                Call
               </div>
-
+            </Link>
 
             <div class="uk-card uk-card-default uk-card-body card">
               <i class="fa fa-weixin icons" aria-hidden="true"></i>
@@ -115,12 +116,12 @@ class SingleContactList extends React.Component {
                   </div>
                 </td>
                 <td className="datils Icons"><i class="fa fa-phone icons" aria-hidden="true"></i></td>
-              </tr> 
+              </tr>
             </tbody>
           </table>
         </div>
         <Footer />
-      </div>     
+      </div>
     );
   }
 }

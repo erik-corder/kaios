@@ -54,6 +54,7 @@
 .footer{
   background-color: #76aeaf;
   padding: 0;
+  margin-bottom: 131px;
 }
 
 .back-button{
@@ -84,3 +85,27 @@
 .log-icon{
   font-size: 20px;
 }
+
+.user-icon{
+  font-size: 100px;
+}
+
+.un-time{
+  font-size: 20px;
+}
+
+.name{
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.call-gif{
+  font-size: 10px;
+  margin-top: 0;
+}
+
+.calling-icon{
+  width: 100px;
+  margin: 33px 0;
+}
+

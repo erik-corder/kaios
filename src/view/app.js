@@ -4,8 +4,6 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch, withRouter, Redirect } from "react-router-dom";
 import './app.css';
 
-
-
 import Routes from "../Routes/Routes";
 
 const hist = createBrowserHistory({basename: '/'});
