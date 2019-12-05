@@ -54,7 +54,7 @@
 .footer{
   background-color: #76aeaf;
   padding: 0;
-  margin-bottom: 131px;
+  margin-top: 131px !important;
 }
 
 .back-button{

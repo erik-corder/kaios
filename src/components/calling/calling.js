@@ -46,7 +46,7 @@ class Calling extends React.Component {
                         </div>
                     </div>
                     <div className="calling-img">
-                        <img className="calling-icon" src={require('../../assests/images/calling-icon.jpg')} />
+                        <img className="calling-icon" src={require('../../assests/images/calling-icon-blue-3d-vector-5834950.jpg')}/>
                     </div>
                 </div>
                 <Footer />
