@@ -47,16 +47,79 @@ class SingleContactList extends React.Component {
               <i class="fa fa-video-camera icons" aria-hidden="true"></i>
               <br />
               Video
-              </div>
+            </div>
 
 
             <div class="uk-card uk-card-default uk-card-body card">
               <i class="fa fa-envelope icons" aria-hidden="true"></i>
               <br />
               Mail
-              </div>
+            </div>
 
           </div>
+          {/*   <hr class="uk-divider-small"></hr> */}
+          <table class="uk-table uk-table-divider">
+            <thead>
+
+            </thead>
+            <tbody>
+              <tr>
+                <td className="details">
+                  <p className="pho-num"> 078 584 2655 </p>
+                  <p className="mob">Mobile</p>
+                </td>
+                <td className="datils Icons"><i class="fa fa-phone icons" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td className="details">
+                  <p className="pho-num"> +94 11 584 2655 </p>
+                  <p className="mob">Home</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td className="details">
+                  <p className="pho-num"> Recent </p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td className="details">
+                  <p className="pho-num"> 078 584 2655 </p>
+                  <p className="mob incom-call"><i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+                  <div>
+                    <p className="mob recent-details">
+                      Mobitel <br />
+                      5:57 a.m <br />
+                      o min 52s
+                  </p>
+                  </div>
+                </td>
+                <td className="datils Icons"><i class="fa fa-phone icons" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td className="details">
+                  <p className="pho-num"> 078 584 2653 </p>
+                  <p className="mob incom-call"><i class="fa fa-arrow-up" aria-hidden="true"></i></p>
+                  <div>
+                    <p className="mob recent-details">
+                      Mobitel <br />
+                      5:57 a.m <br />
+                      o min 52s
+                  </p>
+                  </div>
+                </td>
+                <td className="datils Icons"><i class="fa fa-phone icons" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td className="details">
+                  <button class="uk-button uk-button-default" type="button" uk-toggle="target: #toggle-animation-multiple; animation:  uk-animation-slide-left, uk-animation-slide-bottom">Toggle</button>
+                  <div id="toggle-animation-multiple" class="uk-card uk-card-default uk-card-body uk-margin-small">Animation</div>
+                </td>
+                <td className="datils Icons"><i class="fa fa-phone icons" aria-hidden="true"></i></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     );

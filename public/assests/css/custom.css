@@ -26,3 +26,26 @@
 .icons{
   font-size: 20px;
 }
+
+.pho-num{
+  font-size: 20px;
+  margin-bottom: 0; 
+}
+
+.mob{
+  float: left;
+  margin-top: 0;
+}
+
+.details{
+  float: left;
+}
+
+.incom-call{
+  color: green;
+}
+
+.recent-details{
+    padding-left: 0;
+    float: left;
+}
