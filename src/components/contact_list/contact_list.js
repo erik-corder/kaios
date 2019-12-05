@@ -12,7 +12,7 @@ class ContactList extends React.Component {
     }
 
     get_details = () => {
-        this.props.history.push('/single-contact-details');
+        this.props.history.push('/single-contact-list');
     }
 
     render() {
