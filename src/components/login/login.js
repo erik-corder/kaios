@@ -37,7 +37,7 @@ class Login extends React.Component {
                     <div class="uk-margin">
                         <div class="uk-inline login-field">
                             <Link to='/contact-list'>
-                                <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Button</button>
+                                <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Login</button>
                             </Link>
                         </div>
                     </div>

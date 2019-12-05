@@ -4,7 +4,6 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch, withRouter, Redirect } from "react-router-dom";
 import './app.css';
 
-
 import Nav from '../components/Navbar/Navbar';
 import ContactList from "../components/contact_list/contact_list";
 import SingleContactList from "../components/single_contact_details/single_contact_details";
