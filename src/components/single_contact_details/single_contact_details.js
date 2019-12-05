@@ -27,21 +27,35 @@ class SingleContactList extends React.Component {
               </div>
             </div>
           </div>
-          <div class="uk-card-body">
-            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-              <div>
-                <div class="uk-card uk-card-default uk-card-body">Item</div>
+          <div class="icon-set" uk-gird>
+
+            <div class="uk-card uk-card-default uk-card-body card">
+              <i class="fa fa-phone icons" aria-hidden="true"></i>
+              <br />
+              Call
               </div>
-              <div>
-                <div class="uk-card uk-card-default uk-card-body">Item</div>
-              </div>
-              <div>
-                <div class="uk-card uk-card-default uk-card-body">Item</div>
-              </div>
+
+
+            <div class="uk-card uk-card-default uk-card-body card">
+              <i class="fa fa-weixin icons" aria-hidden="true"></i>
+              <br />
+              Message
             </div>
-          </div>
-          <div class="uk-card-footer">
-            <a href="#" class="uk-button uk-button-text">Read more</a>
+
+
+            <div class="uk-card uk-card-default uk-card-body card">
+              <i class="fa fa-video-camera icons" aria-hidden="true"></i>
+              <br />
+              Video
+              </div>
+
+
+            <div class="uk-card uk-card-default uk-card-body card">
+              <i class="fa fa-envelope icons" aria-hidden="true"></i>
+              <br />
+              Mail
+              </div>
+
           </div>
         </div>
       </div>

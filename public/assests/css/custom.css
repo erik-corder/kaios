@@ -16,3 +16,13 @@
 .cantact-list{
   font-size: 25px;
 }
+
+.card{
+  width: 25%;
+  float: left;
+  height: 82px;
+}
+
+.icons{
+  font-size: 20px;
+}
