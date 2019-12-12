@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 class Navbar extends React.Component {
 
@@ -14,7 +14,7 @@ class Navbar extends React.Component {
     }
 
     goBack = () => {
-        this.props.history.push('/home  ');
+        this.props.history.push('/home');
     }
 
 
@@ -24,7 +24,7 @@ class Navbar extends React.Component {
                 <div className="uk-navbar-left">
                     <i class="fa fa-bars" aria-hidden="true" uk-toggle="target: #offcanvas-nav"></i>
                 </div>
-                <div id="offcanvas-nav" uk-offcanvas="overlay: true">   
+                <div id="offcanvas-nav" uk-offcanvas="overlay: true">
                     <i class="fa fa-times uk-offcanvas-close" aria-hidden="true"></i>
                     <div class="uk-offcanvas-bar side-nav">
                         <button class="uk-offcanvas-close" type="button" uk-close></button>

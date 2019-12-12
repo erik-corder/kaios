@@ -3,20 +3,20 @@ import logo from './logo.svg';
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch, withRouter, Redirect } from "react-router-dom";
 import './app.css';
+import { useNavigation } from 'react-kaios-navigation';
 
 import Routes from "../Routes/Routes";
 
-const hist = createBrowserHistory({basename: '/'});
+const hist = createBrowserHistory({ basename: '/' });
 
 class App extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
   }
 
   componentDidMount() {
     // Focus to the anchor, press 'Enter' should open a new webpage
-
   }
 
   render() {
@@ -32,12 +32,12 @@ class App extends React.Component {
       </Switch>
     );
 
-    return (      
-      <Router history={hist}>     
-        {routes}       
+    return (
+      <Router history={hist}>
+        {routes}
       </Router>
     );
-   
+
   }
 }
 

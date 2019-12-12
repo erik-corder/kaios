@@ -2,6 +2,7 @@
 import 'kaios-gaia-l10n';
 import React from 'react';
 import ReactDOM from 'react-dom';
+    import {useNavigation} from 'react-kaios-navigation';
 
 import App from './view/app';
 import './index.css';
